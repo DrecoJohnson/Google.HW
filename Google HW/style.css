@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    margin: 25;
+}
+.searchbar{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    border-radius: 20px;
+    padding: 20px 15px 5px 20px;
+    outline: none;
+}
+button{
+    padding: 8px;
+    margin: 8px;
+    border-radius: 6px;
+}
+ul{
+    display: block;
+    padding: 3px;
+    margin: 5px;
+    list-style: none;
+}
+li{
+    display: inline;
+    margin: 8px;
+    padding: 4px
+}
+.left-side{
+    float: left;
+    
+}
+.right-side{
+    float: right;
+}
+.hero{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 150px;
+}
+img{
+    margin: 20px;
+}
+.footer{
+ 
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+}
+.foot-right{
+    float: right;
+}
+.foot-left{
+    float: left;
+}
+footer{
+    background-color: rgba(211, 211, 211, 0.671);
+    margin: 5px;
+    padding: 6px;
+}

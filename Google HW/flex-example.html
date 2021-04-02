@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Example</title>
+  </head>
+  <body>
+    <div>some non-flex content</div>
+    <div class="mainContainer">
+      <header>Some Content</header>
+      <div class="mainContainer__childTextBox">
+          <p>
+              some non-flex content
+          </p>
+          <p>
+              some other non-flex content
+          </p>
+      </div>
+      <img src="https://" />
+      <p>some body text</p>
+    </div>
+  </body>
+</html>
+<style>
+    .mainContainer > * {
+        border: solid 1px red;
+    }
+    p{
+        margin: unset;
+    }
+    body{
+        margin: unset;
+    }
+    .mainContainer{
+        border: solid 4px green;
+        text-align: center;
+        height: 50vh;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainContainer__childTextBox{
+        padding: 20px;
+    }
+</style>

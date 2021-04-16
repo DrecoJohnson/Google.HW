@@ -1,0 +1,17 @@
+.mainNav_container, .mainNav_items, .mainNav_navList {
+    display: flex;
+}
+
+.mainNav_container h1{
+    font-size: 18px;
+}
+
+ul.mainNav_navList{
+    margin: none;
+    padding: unset;
+    padding-left: 2em;
+}
+.mainNav_navList li{
+    list-style: none;
+    margin-right: 30px;
+}
